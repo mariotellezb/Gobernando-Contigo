@@ -14,7 +14,7 @@
     <main class="main-content">
         <div class="register-container">
             <h2>Registro</h2>
-            <form action="/Gobernando-Contigo/principal1/index1.html" method="get">
+            <form action="/Gobernando-Contigo/principal1/index1.html" method="get" onsubmit="event.preventDefault(); window.location.href=this.action">
                 <div class="form-group">
                     <label for="nombre">Nombre Completo:</label>
                     <input type="text" id="nombre" name="nombre" required>
