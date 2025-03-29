@@ -14,7 +14,7 @@
     <main class="main-content">
         <div class="login-container">
             <h2>Iniciar Sesión</h2>
-            <form action="/Gobernando-Contigo/principal1/index1.html" method="get">
+            <form action="/Gobernando-Contigo/principal1/index1.html" method="get" onsubmit="event.preventDefault(); window.location.href=this.action">
                 <div class="form-group">
                     <label for="usuario">Correo:</label>
                     <input type="text" id="usuario" name="usuario" required>
