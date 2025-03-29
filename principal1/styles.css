@@ -48,7 +48,7 @@ body {
 }
 
 .banner {
-    background-image: url('C:/VS Code/HTML GENERAL/GobernandoContigo/assets/img/Arcos de queretaro.jpg');
+    background-image: url('assets/img/Arcos de queretaro.jpg');
     background-size: cover;
     text-align: left;
     padding: 2em 0em;
