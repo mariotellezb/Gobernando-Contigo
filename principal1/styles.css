@@ -1,0 +1,513 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.auth-section {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.auth-section .logo {
+    padding: 10px;
+    margin-left: 80px;
+    max-width: 400px;
+    height: auto;
+}
+
+.auth-buttons {
+    display: flex;
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+
+.IniciaSesion {
+    background-color: #fff;
+    color: #000000;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.Registrarse {
+    background-color: #3990e1;
+    color: #fff;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    justify-content: flex-end;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.banner {
+    background-image: url('C:/VS Code/HTML GENERAL/GobernandoContigo/assets/img/Arcos de queretaro.jpg');
+    background-size: cover;
+    text-align: left;
+    padding: 2em 0em;
+}
+
+.h1-banner{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #000000;
+}
+
+.p-banner{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 120px;
+    margin-right: 500px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background-color: #193d62;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+}
+
+.seccion {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categoria-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categoria-cuadro {
+    flex: 1 1 200px;
+    background-color: #e9ecef;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.seccion {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #34348c;
+    font-size: 2.2rem;
+}
+
+.p-secciones {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Estilos para los cuadros de participación */
+.categoria-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.categoria-cuadro {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-top: 4px solid #3990e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria-cuadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(52, 52, 140, 0.2);
+}
+
+.categoria-cuadro h3 {
+    color: #34348c;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.icono-svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    fill: #519ee5;
+}
+
+.categoria-cuadro .short-text {
+    font-weight: bold;
+    color: #3990e1;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.categoria-cuadro .expanded-text {
+    display: none;
+    color: #555;
+    text-align: center;
+}
+
+.categoria-cuadro:hover .short-text {
+    display: none;
+}
+
+.categoria-cuadro:hover .expanded-text {
+    display: block;
+}
+
+.impacto-section {
+    background-color: #34348c;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 0 5px 20px #34348c1a;
+    margin: 2rem 0;
+}
+
+.impacto-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.impacto-subtitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.separator {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 2rem auto;
+    max-width: 200px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    background-color: #327ad8;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.stat-number {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+/* Colores diferentes para cada cuadro */
+.categoria-cuadro:nth-child(1) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(2) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(3) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(4) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(5) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(6) { border-top-color: #34348c; }
+
+.categoria-cuadro:nth-child(1) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(2) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(3) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(4) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(5) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(6) .icono-svg { fill: #3990e1; }
+
+.categoria-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.categoria-cuadro {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-top: 4px solid #519ee5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria-cuadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(52, 52, 140, 0.2);
+}
+
+.categoria-cuadro h3 {
+    color: #34348c;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.icono-svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    fill: #519ee5;
+}
+
+.categoria-cuadro p {
+    color: #555;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+/* Colores diferentes para cada cuadro */
+.categoria-cuadro:nth-child(1) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(2) { border-top-color: #34348c; }
+.categoria-cuadro:nth-child(3) { border-top-color: #34348c; }
+
+.categoria-cuadro:nth-child(1) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(2) .icono-svg { fill: #3990e1; }
+.categoria-cuadro:nth-child(3) .icono-svg { fill: #3990e1; }
+
+.gobierno-seccion{
+    background-color: #34348c;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 0 5px 20px #34348c1a;
+    margin: 2rem 0;
+}
+
+.gobierno-title{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+
+.gobierno-subtitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #34348c;
+    color: white;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.aviso-privacidad {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.social-divider {
+    width: 80%;
+    max-width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(81, 158, 229, 0.5), transparent);
+    margin: 1rem auto;
+}
+
+.social-title {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon:hover {
+    background-color: #519ee5;
+    transform: translateY(-3px);
+}
+
+.social-icon svg {
+    width: 22px;
+    height: 22px;
+    fill: white;
+}
+
+.footer-bottom {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(81, 158, 229, 0.3);
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .footer-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .social-divider {
+        display: none;
+    }
+}
+
+.perfil-dropdown {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.img-perfil{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #999999;
+    background-color: white; 
+    padding: 2px;
+    margin-right: 5px; 
+}
+
+.perfil-btn {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1.5em;
+    border: 2px solid #999999;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.perfil-opciones {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.perfil-opciones a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.perfil-opciones a:hover {
+    background-color: #f1f1f1;
+}
+
+.perfil-dropdown:hover .perfil-opciones {
+    display: block;
+}
